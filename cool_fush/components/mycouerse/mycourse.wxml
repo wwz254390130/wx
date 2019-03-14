@@ -1,0 +1,17 @@
+<!--components/mycourse.wxml-->
+<view class='mycourse'>
+  <view>
+    <image class='mycourse-img' src="{{cour.img_url}}" />
+  </view>
+  <view class='mycou-title'>
+    <view>
+      <text class='mycourse-title'>{{cour.title}}</text>
+    </view>
+    <view>
+      <text class='mycourse-content'> {{cour.subtitle}} </text>
+    </view>
+  </view>
+  <view class='mycourse-color' style="background-color:{{cour.isFull ? '#cacaca':'#ff547c'}}">
+    <text>{{cour.isFull ? "人数已满" :"了解课程"  }} </text>
+  </view>
+</view>

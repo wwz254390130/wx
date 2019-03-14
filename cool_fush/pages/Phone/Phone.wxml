@@ -1,0 +1,7 @@
+<!--pages/Phone/Phone.wxml-->
+<view class='Phone'>
+<my-input myInput="{{mobile}}" />
+<my-input myInput="{{vcode}}" />
+<text class='p-txt'  >绑定手机成功后可免费获取三天体验VIP哦</text>
+</view>
+<view class='p-btn'> <view>验证绑定</view> </view> 

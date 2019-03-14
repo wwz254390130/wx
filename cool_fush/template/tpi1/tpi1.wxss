@@ -1,0 +1,17 @@
+.images{
+    width: 40rpx;
+    height: 40rpx;
+}
+.txt{
+  font-size: 26rpx;
+  color: #999;
+
+}
+.tpi1{
+
+  height: 50rpx;
+  line-height: 40rpx;
+  display: flex;
+  align-items: center;
+
+}

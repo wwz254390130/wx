@@ -1,0 +1,36 @@
+/* components/mycourse.wxss */
+.mycourse{
+  height: 200rpx;
+  display: flex;
+  padding: 20rpx;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.mycourse-img{
+  width: 120rpx;
+  height: 120rpx;
+}
+.mycou-title{
+  padding-left: 20rpx;
+  flex: 1;
+
+}
+.mycourse-title{
+  font-size: 30rpx;
+}
+.mycourse-content{
+
+  font-size: 24rpx;
+  color:#999;
+}
+.mycourse-color{
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 10rpx ;
+  font-size: 24rpx;
+}

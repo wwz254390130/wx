@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-input": "/components/myinput/myinput"
+  }
+ 
+}

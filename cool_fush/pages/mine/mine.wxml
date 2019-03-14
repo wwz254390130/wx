@@ -1,0 +1,18 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine'>
+  <view class='mine-header'>
+    <image class='mine-img' src='{{user.avatar}}' />
+    <text class='mine-txt'>{{user.name}}</text>
+  </view>
+  <!-- 时间 -->
+  <view>
+    <mysetter obj="{{expiresData}}" />
+  </view>
+  <!-- 设置 -->
+  <view bindtap='goPhone'>
+    <block  wx:for="{{setter}}" wx:key="{{item.id}}">
+      <mysetter data-id='{{item.id}}' obj="{{item}}" />
+    </block>
+  </view>
+
+</view>

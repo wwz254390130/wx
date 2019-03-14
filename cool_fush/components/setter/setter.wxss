@@ -1,0 +1,27 @@
+/* components/setter/setter.wxss */
+.setter-box{
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+  padding: 20rpx;
+  background-color: #fff;
+
+}
+.setter-date{
+  font-size: 30rpx;
+  color: #666;
+}
+.setter-img{
+  width: 50rpx;
+  height: 50rpx;
+}
+.setter-switch{
+   width: 40rpx;
+  height: 40rpx;
+  margin-right: 80rpx; 
+}
+.setter-left{
+  font-size: 36rpx;
+}

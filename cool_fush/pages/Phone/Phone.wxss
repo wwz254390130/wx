@@ -1,0 +1,29 @@
+/* pages/Phone/Phone.wxss */
+.Phone{
+  margin-top: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    font-size: 30rpx;
+}
+.p-txt{
+margin-top: 20rpx;
+  color: #999;
+}
+.p-btn{
+  position: fixed;
+  bottom: 100rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.p-btn view{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff547c;
+  color: #fff;
+  border-radius: 100rpx;
+  width: 500rpx;
+  height: 100rpx;
+}

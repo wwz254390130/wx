@@ -1,0 +1,27 @@
+<view>
+  <include src="./searchBar.wxml" />
+
+  <view bindtap='goDetails' data-listid="{{item.id}}" data-name="{{item.name}}" class='list-box' wx:for="{{shops}}" wx:key="{{item.id}}">
+    <image class='list-img' src='{{item.images[0]}}' />
+    <view class='list-conten'>
+      <view class='list-title'>
+        <text>{{item.name}}</text> </view>
+      <view class='list-txt'>
+        <text>电话: {{item.phone}}</text> </view>
+      <view class='list-txt'>
+        <text>地址: {{item.address}}</text> </view>
+      <view class='list-txt'>
+        <text>营业时间: {{item.businessHours}}</text> </view>
+      <view class='list-score'>{{item.score}}</view>
+    </view>
+  </view>
+
+  <!-- 加载更多 -->
+  <view class="page__bd">
+    <view wx:if="{{hasMore}}" class="weui-loadmore">
+      <view class="weui-loading"></view>
+      <view class="weui-loadmore__tips">正在加载..</view>
+    </view>
+    <view wx:else class='weui-loadmore'>没有更多了</view>
+  </view>
+</view>

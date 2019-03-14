@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mycourse":"/components/mycouerse/mycourse"
+  }
+}

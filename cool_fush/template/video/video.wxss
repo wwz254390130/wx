@@ -1,0 +1,22 @@
+.video-box{
+  width: 50%;
+  height: 320rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.video-img{
+  width: 95%;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+.vide-title{
+  font-size: 28rpx;
+  color: #666;
+
+}
+.video-conten{
+  font-size: 24rpx;
+  color: #999;
+}

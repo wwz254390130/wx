@@ -1,0 +1,12 @@
+<template name="course">
+<view class='course' style="background-color:{{color}}">
+
+<view class='cou-title'>
+<text>{{title}}</text>
+</view>
+
+<view class='cou-conter'>
+<text> {{subtitle}}</text>
+</view>
+</view>
+</template>

@@ -1,0 +1,7 @@
+/* pages/course/course.wxss */
+@import '/components/mycouerse/mycourse.wxss';
+.course{
+  background-color:  #f5f7fb;
+  padding: 20rpx;
+
+}

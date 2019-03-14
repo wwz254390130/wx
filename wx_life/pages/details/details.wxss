@@ -1,0 +1,60 @@
+/* pages/details/details.wxss */
+swiper{
+  width: 750rpx;
+  height: 430rpx;
+}
+.swiper-img{
+  width: 100%;
+  height: 100%;
+}
+.tilte-box{
+  position: relative;
+  background-color: #fff;
+ padding: 20rpx;
+ margin: 20rpx 0;
+ font-size: 26rpx;
+ display: flex;
+ flex-direction: column;
+}
+.tilte-box .title{
+  font-size: 32rpx;
+   /* align-self: flex-end; */
+}
+
+.tilte-box .score{
+  padding: 3rpx 10rpx;
+  background-color: red;
+  position: absolute;
+  right: 30rpx;
+  color: #fff;
+  top: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+}
+.comment{
+  background-color: #fff;
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx;
+  font-size: 26rpx;
+}
+.comment .rating{
+  color: red;
+}
+.comt-box {
+  display: flex;
+  justify-content: space-between;
+}
+.comment .com-title{
+  font-size: 32rpx;
+}
+.comment .com-date{
+  text-align: right;
+}
+.comment .com-content{
+  color: #999;
+}
+.com-img image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 10rpx;
+}

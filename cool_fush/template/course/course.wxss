@@ -1,0 +1,19 @@
+.course{
+  width:300rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  display: inline-block;
+  padding: 10rpx;
+
+}
+.cou-title{
+
+ font-size: 30rpx;
+ color: #fff;
+}
+.cou-conter{
+  margin-top: 10rpx;
+  color: #fff;
+  font-size: 20rpx;
+}

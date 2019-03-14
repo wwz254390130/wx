@@ -1,0 +1,18 @@
+<!--components/setter/setter.wxml-->
+<view class='setter-box'>
+<view class='setter-left'><text>{{obj.title}}</text> </view>
+
+<view class='setter-right'>
+<block wx:if="{{obj.type==='date'}}">
+<text class='setter-date'>{{obj.date}}</text>
+</block>
+<block wx:elif="{{obj.type ==='arrow'}}">
+<image class='setter-img' src='{{obj.img_url}}' /> 
+</block>
+<block wx:elif="{{obj.type==='switch'}}">
+<switch class='setter-switch' checked></switch>
+</block>
+
+</view>
+
+</view>

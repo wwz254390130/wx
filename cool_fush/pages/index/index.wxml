@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<!-- 引入模板 -->
+<import src="/template/tpi1/tpi1.wxml"  />
+<import src="/template/tpi2/tpi2.wxml" />
+<import src="/template/course/course.wxml" />
+<import src="/template/video/video.wxml" />
+<view >
+<!-- 轮播图 -->
+<swiper
+  indicator-dots
+  autoplay
+  interval="{{3000}}"
+  duration="{{1000}}"
+  circular indicator-active-color='white'
+ >
+  <block wx:for="{{swiper}}" wx:key="{{item.id}}">
+    <swiper-item>
+      <image data-id='{{item.id}}' src="{{item.img_url}}" class="slide-image"  />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 课程信息 -->
+<view class='tpis'>
+ <template is="tpi1" data="{{...hotCourse}}" />
+ <template is ="tpi2" data="{{...more}}" />
+</view>
+<!-- 滚动区域 -->
+<view class='scroll-box'>
+<scroll-view scroll-x="{{true}}" class='scroll'>
+<block wx:for="{{courses}}" wx:key="{{item.id}}">
+<template is="course" data="{{ ...item}}" />
+ </block>
+ </scroll-view>
+</view>
+</view>
+<!-- 视频推荐 -->
+<view class='vide'>
+<template is='tpi1'  data="{{...videoTitle}}" />
+</view>
+<view class='vide'>
+<block wx:for="{{video}}"  wx:key="{{item.id}}">
+<template is="video" data="{{...item}}" />
+ </block>
+</view>

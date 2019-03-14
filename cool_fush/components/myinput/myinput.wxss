@@ -1,0 +1,21 @@
+/* components/myinput/myinput.wxss */
+.input-box{
+  margin-top: 100rpx;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.my-input{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+  width: 650rpx;
+  height: 100rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+  border-radius: 40rpx;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+}

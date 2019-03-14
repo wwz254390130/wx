@@ -1,0 +1,13 @@
+.tpi2{
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.txt2{
+ font-size: 24rpx;
+ color: #ccc;
+ }
+ .images2{
+   width: 30rpx;
+   height: 30rpx;
+ }

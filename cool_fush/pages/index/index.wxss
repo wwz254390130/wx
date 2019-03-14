@@ -1,0 +1,32 @@
+/**index.wxss**/
+@import '/template/tpi1/tpi1.wxss';
+@import '/template/tpi2/tpi2.wxss';
+@import '/template/course/course.wxss';
+@import '/template/video/video.wxss';
+swiper{
+  width: 750rpx;
+  height: 400rpx;
+}
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+.tpis{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.scroll-box{
+  padding: 10rpx 0;
+  align-items: center;
+    display: flex;
+margin-left: 10rpx;
+  white-space: nowrap;
+}
+.vide{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 10rpx; */
+  padding-left: 20rpx;
+}

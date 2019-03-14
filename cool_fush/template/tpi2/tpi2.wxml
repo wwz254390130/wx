@@ -1,0 +1,6 @@
+<template name="tpi2">
+<view class='tpi2'>
+  <text class='txt2'>{{content}} </text>
+ <image class='images2' src='{{image_url}}' />
+</view>
+</template>
